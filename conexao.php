@@ -4,7 +4,7 @@
 
 $host = "localhost";
 $usuario = "root";
-$senha = "";
+$senha = "abcd1234";
 $bd = "empresa";
 
 $conexao = mysqli_connect($host, $usuario, $senha, $bd); //  para juntar o banco de dado
@@ -15,6 +15,7 @@ die ("Erro de conexao" . mysqli_connect_error());
 else {
   //echo "Conectado ao banco de dados $bd";
 }
+
 
 
 ?>
