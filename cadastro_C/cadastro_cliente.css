@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial;
+    background-color: #f4f4f9;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.inicio {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.cadastro-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 380px; 
+}
+
+
+.cadastro-header {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+.cadastro-header a {
+    flex-grow: 1; 
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+
+.login-header a.active {
+    color: #007bff; 
+    border-bottom: 3px solid #007bff;
+}
+
+.login-header a:hover:not(.active) {
+    color: #0056b3;
+}
+
+
+.login-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    font-size: 1em;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+
+.button-entrar {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button-entrar:hover {
+    background-color: #0056b3;
+}
+
+
+.link-tabela-container {
+    text-align: center; 
+    margin-top: 15px; 
+}
+
+
+.link-tabela {
+    color: #007bff;
+    text-decoration: none; 
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.link-tabela:hover {
+    color: #0056b3; 
+    text-decoration: underline;
+}
